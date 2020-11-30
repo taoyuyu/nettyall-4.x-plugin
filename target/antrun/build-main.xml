@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <taskdef resource="net/sf/antcontrib/antcontrib.properties" classpathref="maven.runtime.classpath"/>
+  <if>
+    <equals arg2="jar" arg1="jar"/>
+    <then>
+      <mkdir dir="D:\VMshare\cmder\works\skywalking\apm-sniffer\apm-sdk-plugin\nettyall-4.x-plugin\target/../../../../skywalking-agent/plugins"/>
+      <copy file="D:\VMshare\cmder\works\skywalking\apm-sniffer\apm-sdk-plugin\nettyall-4.x-plugin\target/apm-nettyall-4.x-plugin-8.3.0-SNAPSHOT.jar" tofile="D:\VMshare\cmder\works\skywalking\apm-sniffer\apm-sdk-plugin\nettyall-4.x-plugin\target/../../../../skywalking-agent/plugins/apm-nettyall-4.x-plugin-8.3.0-SNAPSHOT.jar" overwrite="true"/>
+    </then>
+  </if>
+</target>
+</project>

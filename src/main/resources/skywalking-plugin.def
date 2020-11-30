@@ -1,0 +1,6 @@
+netty-4.x=org.apache.skywalking.apm.plugin.netty.channel.define.CradleDecoderInstrumentation
+netty-4.x=org.apache.skywalking.apm.plugin.netty.channel.define.CradleEncoderInstrumentation
+netty-4.x=org.apache.skywalking.apm.plugin.netty.channel.define.AccessCradleDecoderInstrumentation
+netty-4.x=org.apache.skywalking.apm.plugin.netty.channel.define.AccessCradleEncoderInstrumentation
+netty-4.x=org.apache.skywalking.apm.plugin.netty.channel.define.TcpInboundHandlerInstrumentation
+netty-4.x=org.apache.skywalking.apm.plugin.netty.channel.define.TcpCradleCallbackInstrumentation
